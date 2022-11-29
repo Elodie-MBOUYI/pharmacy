@@ -1,0 +1,501 @@
+.home{
+    background-color: var(--overlay);
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.home:before{
+    content: '';
+    background: url('../assets/Vendeuse2.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home .content {
+    height:100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 50px;
+} 
+
+.home .content p:first-child {
+    font-size: 2rem;
+    transform: translate(0px, 170px);
+} 
+.home .content p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: 400; 
+    transform: translate(0px, 120px);
+} 
+.home .content p:nth-child(3) {
+    font-size: 2rem;
+    transform: translate(0px, 80px);
+} 
+
+.home .content p:nth-child(4) {
+    font-size: 2rem;
+    font-weight: 400;
+    transform: translate(0px, 40px);
+} 
+.home button{
+    margin: 1rem 0;
+    width: 300px;
+    transform: translate(800px, 70px);
+}
+.home button a{
+    color: white;
+}
+.linero{
+    display: block;
+    width: 100px;
+    height:3px ;
+    margin:5px auto ;
+    background-color:#127535 ;
+    transform: translate(0px, 40px);
+}
+.pharmacies h2{
+    color: #127535;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(0px, 40px);
+}
+.pharmacies p{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    transform: translate(0px, 80px);
+}
+/* liste des pharmacies partenaires */
+.nosphcies{
+    width: 80%;
+    height: 450px;
+    background-color: aqua;
+    transform: translate(140px, 100px);
+    display: flex;
+}
+/* pharmacie 1 */
+.nosphcies1{
+    background-color: var(--overlay-yellow);
+    text-align: center;
+    color: #ffffff;
+    height: 75vh;
+    width: 40%;
+    position: relative;
+    margin-top: 0px;
+}
+.nosphcies1:before{
+    content: '';
+    background: url('../assets/Vendeur1.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nosphcies1 button{
+    padding:10px 10px ;
+    font-size:1rem ;
+    color: #127535;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#ffffff ;
+    border:1px solid white ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-30px,370px);
+}
+.nosphcies1 button a{
+    color: #127535;
+}
+.deux{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 500px;
+}
+/* pharmacie 2 */
+.nosphcies2{
+    background-color: var(--overlay); 
+    text-align: center;
+    color: #ffffff;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+.nosphcies2:before{
+    content: '';
+    background: url('../assets/pharmacy2.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nosphcies2 button{
+    padding:10px 10px ;
+    font-size:1rem ;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-160px,100px);
+}
+
+/* pharmacie trois */
+.nosphcies3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    transform: translate(0px,0px);
+} 
+.andrea{
+    background-color: var(--overlay); 
+    text-align: center;
+    color: #ffffff;
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+.andrea:before{
+    content: '';
+    background: url('../assets/Vendeuse44.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.andrea button{
+    padding:10px 10px ;
+    width: 240px;
+    font-size:1rem ;
+    color: #127535;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#ffffff ;
+    border:1px solid white ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-30px,190px);
+}
+.andrea button a{
+    color: #127535;
+}
+.radoca{
+    background-color: var(--overlay-yellow); 
+    text-align: center;
+    color: #ffffff;
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+.radoca:before{
+    content: '';
+    background: url('../assets/Vendeur1.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.radoca button{
+    padding:10px 10px ;
+    width: 240px;
+    font-size:1rem ;
+    color: #127535;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:white ;
+    border:1px solid white ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-30px,190px);
+}
+.radoca button a{
+    color: #127535;
+}
+/* les pharmacies de garde */
+.garde{
+    width: 90%;
+    height: 90vh;
+    transform: translate(100px,140px);
+}
+.garde h2{
+    color: #127535;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(0px, 10px);
+}
+.lineroo{
+    display: block;
+    width: 100px;
+    height:3px ;
+    margin:5px auto ;
+    background-color:#127535 ;
+    transform: translate(0px, 10px);
+}
+.degarde{
+    display: flex;
+    width: 80%;
+    height: 65vh;
+    transform: translate(110px, 40px);
+}
+.degarde1{
+    background-color: var(--overlay); 
+    text-align: center;
+    color: #ffffff;
+    height: 65vh;
+    width: 60%;
+    position: relative;
+    margin-top: 0px;
+}
+.degarde1:before{
+    content: '';
+    background: url('../assets/Degarde.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.degarde2{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.degarde2 h5{
+    color: #127535;
+    font-size: 20px;
+    transform: translate(20px, 10px)
+}
+.degarde2 p{
+    color: black;
+    font-size: 15px;
+    transform: translate(20px, 10px)
+}
+
+.degarde2 button{
+    padding:10px 10px ;
+    width: 240px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(17px,20px);
+}
+.call1{
+    width: 30px;
+    height: 30px;
+    transform: translate(17px,20px);
+}
+.call2{
+    width: 30px;
+    height: 30px;
+    transform: translate(17px,20px);
+}
+.degarde2 span{
+    color: black;
+    font-weight: 500;
+    transform: translate(80px,-5px);
+}
+/* footer page d'accueil */
+.contacts{
+    width: 100%;
+    height: 80vh;
+    background-color: #127535;
+    transform: translate(0px, 200px);
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    width: 25%;
+    height: 45vh;
+    transform: translate(60px, 0px);
+}
+.about h5 {
+    font-size:20px ;
+}
+
+/* div entrer en contact partie 1 */
+.link{
+    width: 30%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(40px, 30px);
+}
+.link h5 {
+    transform: translate(0px, 155px);
+    font-size:20px ;
+}
+.link p {
+    transform: translate(0px, -120px);
+    font-size:15px ;
+}
+.link1{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(40px,70px);
+}
+.link2{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(40px,-22px);
+}
+.link3{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(40px,-118px);
+}
+.link4{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(40px,-210px);
+}
+
+/* div entrer en contact partie 2 */
+.all1{
+    width: 30px;
+    height: 30px;
+    transform: translate(0px, 140px);
+}
+.all2{
+    width: 30px;
+    height: 30px;
+    transform: translate(0px, 50px);
+}
+.all3{
+    width: 35px;
+    height: 35px;
+    transform: translate(-2px, -40px);
+}
+.all4{
+    width: 30px;
+    height: 30px;
+    transform: translate(0px, -135px);
+}
+
+/* mon formulaire */
+.write{
+    width: 30%;
+    height: 65vh;
+    transform: translate(0px, 7px);
+}
+.write h5 {
+    transform: translate(0px, -10px);
+    font-size:20px ;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.write button{
+    transform: translate(150px, -15px);
+    padding:10px 10px ;
+    width: 150px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#8CC826 ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.form input{
+    transform: translate(0px, -20px);
+    padding:10px 10px ;
+    width: 300px;
+    color:gray ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+}
+.form textarea{
+    transform: translate(0px, 0px);
+    padding:10px 10px ;
+    width: 300px;
+    height: 35vh;
+    color:gray ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+}
+
+
+
+
+@media screen and (max-width:940px) {
+    
+    .home:before{
+        width: 100%;
+        height: 100%;
+    }
+    .home .content{
+        max-width: 100%;
+        transform: translate(0px, 200px);
+    }
+    .home .content p {
+        font-size: 1.5rem;
+    } 
+
+    .home .content p:first-child {
+        font-style: italic;
+        font-size: 1.5rem;
+        transform: translate(0px, 40px);
+    } 
+    .home .content p:nth-child(2) {
+        font-size: 2rem;
+        font-weight: 400;
+        transform: translate(0px, -10px);
+    } 
+    .home .content p:nth-child(3) {
+        font-style: italic;
+        font-size: 1.2rem;
+        transform: translate(0px, -55px);
+    } 
+    
+    .home .content p:nth-child(4) {
+        font-size: 1.5rem;
+        font-weight: 400;
+        transform: translate(0px, -80px);
+    } 
+    .home button{
+        margin: 1rem 0;
+        width: 170px;
+        transform: translate(150px, -100px);
+    }
+    .home button{
+        font-size: 12px;
+    }
+    .nosphcies{
+        display: none;
+    }
+}

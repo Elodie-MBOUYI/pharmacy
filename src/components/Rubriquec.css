@@ -1,0 +1,227 @@
+.ligne{
+    display: block;
+    width: 100px;
+    height:3px ;
+    margin:5px auto ;
+    background-color:#127535 ;
+    transform: translate(0px, 170px);
+}
+.fievre h2{
+    color: #127535;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(0px, 180px);
+}
+.cards{
+    width: 80%;
+    height: 130vh;
+    background-color: aquamarine;
+    transform: translate(150px, 180px);
+}
+.cards1{
+    width: 95%;
+    height: 60vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    transform: translate(30px, 10px);
+}
+.cards2{
+    width: 95%;
+    height: 60vh;
+    background-color: rgb(122, 63, 63);
+    display: flex;
+    justify-content: space-around;
+    transform: translate(30px, 10px);
+}
+.fever{
+    width: 30%;
+    height: 50vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(0px, 10px);
+}
+
+.doliprane{
+    width: 150px;
+    height: 150px;
+}
+.advil{
+    width: 150px;
+    height: 150px;
+}
+.tramadol{
+    width: 150px;
+    height: 150px;
+}
+
+/* rentrer en contact avec la pharmacie */
+.contact{
+    width: 95%;
+    height: 80vh;
+    background-color: rgb(130, 130, 172);
+    transform: translate(40px, 225px);
+}
+.contact p{
+    color: #127535;
+    text-align: center;
+    font-size: 20px;
+    transform: translate(0px, 0px);
+    font-weight: 500;
+}
+.coordoonnees{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    transform: translate(140px, 50px);
+}
+.coordoonnees1{
+    width: 45%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.notes{
+    width: 95%;
+    height: 9vh;
+    color: black;
+    font-size: 12px;
+    transform: translate(80px,50px);
+    text-align: center;
+}
+
+/* l adresse */
+.cod1{
+    transform: translate(0px, -90px);
+}
+.cod img{
+    width: 40px;
+    height: 40px;
+    transform: translate(20px, 40px);
+}
+.cod h6{
+    color: #04A118;
+    font-size: 20px;
+    transform: translate(70px, -35px);
+}
+.cod p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 150;
+    transform: translate(-10px, -75px);
+}
+/* le telephone */
+.cod1 img{
+    width: 35px;
+    height: 35px;
+    transform: translate(20px, 40px);
+}
+.cod1 h6{
+    color: #127535;
+    font-size: 20px;
+    transform: translate(70px, -35px);
+}
+.cod1 p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 150;
+    transform: translate(-135px, -75px);
+}
+/* les horaires */
+.cod2{
+    transform: translate(20px, -190px);
+}
+.cod2 img{
+    width: 35px;
+    height: 35px;
+    transform: translate(0px, 40px);
+}
+.cod2 h6{
+    color: #04A118;
+    font-size: 20px;
+    transform: translate(45px, -35px);
+}
+.cod2 p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 150;
+    text-align: left;
+    transform: translate(43px, -75px);
+}
+/* les reseaux sociaux */
+.cod3{
+    transform: translate(-190px, -250px);
+}
+.cod3 img{
+    width: 35px;
+    height: 35px;
+    transform: translate(210px, -45px);
+}
+.cod3 h5{
+    color: #127535;
+    font-size: 20px;
+    transform: translate(75px, -35px);
+}
+.cod3 p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 150;
+    text-align: left;
+    transform: translate(260px, -90px);
+}
+
+/*partie formulaire*/
+
+.coordoonnee2{
+    width: 45%;
+    height: 80vh;
+    background-color: #127535;
+    display: flex;
+    flex-direction: column;
+}
+.coordoonnee2 h2{
+    color: #ffffff;
+    transform: translate(10px, 0px);
+}
+.formtwo{
+    width: 80%;
+    height: 60vh;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(50px, 0px);
+}
+.formtwo input{
+        padding:10px 10px ;
+        width: 370px;
+        font-size:1rem ;
+        color:gray ;
+        border:1.5px solid #8CC826 ;
+        border-radius:10px ;
+}
+.formtwo textarea{
+    padding:10px 10px ;
+    width: 370px;
+    height: 200px;
+    font-size:1rem ;
+    color:gray ;
+    border:1.5px solid #8CC826 ;
+    border-radius:10px ;
+}
+.formtwo button{
+    padding:10px 10px ;
+    width: 240px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#8CC826 ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(140px,0px);
+}

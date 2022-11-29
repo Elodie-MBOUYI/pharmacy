@@ -1,0 +1,90 @@
+/* les pharmacies de garde */
+.garde{
+    width: 90%;
+    height: 90vh;
+    transform: translate(100px,140px);
+}
+.garde h2{
+    color: #127535;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(0px, 10px);
+}
+.lineroo{
+    display: block;
+    width: 100px;
+    height:3px ;
+    margin:5px auto ;
+    background-color:#127535 ;
+    transform: translate(0px, 10px);
+}
+.degarde{
+    display: flex;
+    width: 80%;
+    height: 65vh;
+    transform: translate(110px, 40px);
+}
+.degarde1{
+    background-color: var(--overlay); 
+    text-align: center;
+    color: #ffffff;
+    height: 65vh;
+    width: 60%;
+    position: relative;
+    margin-top: 0px;
+}
+.degarde1:before{
+    content: '';
+    background: url('../assets/Degarde.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.degarde2{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.degarde2 h5{
+    color: #127535;
+    font-size: 20px;
+    transform: translate(20px, 10px)
+}
+.degarde2 p{
+    color: black;
+    font-size: 15px;
+    transform: translate(20px, 10px)
+}
+
+.degarde2 button{
+    padding:10px 10px ;
+    width: 240px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(17px,20px);
+}
+.call1{
+    width: 30px;
+    height: 30px;
+    transform: translate(17px,20px);
+}
+.call2{
+    width: 30px;
+    height: 30px;
+    transform: translate(17px,20px);
+}
+.degarde2 span{
+    color: black;
+    font-weight: 500;
+    transform: translate(80px,-5px);
+}

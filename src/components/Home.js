@@ -23,6 +23,7 @@ function Home () {
           <h2>Vos pharmacies</h2>
           <span className="linero"></span>
           <p>Avec Médic'App, s'approvisionner en produits et services pharmaceutiques n'a jamais été aussi simple dans votre ville !</p>
+          
           <div className='nosphcies'>
             <div className='nosphcies1'>
               <button><Link to="/pharms">Pharmacie Centrale</Link></button>
@@ -33,7 +34,7 @@ function Home () {
               </div>
               <div className='nosphcies3'>
                 <div className='andrea'>
-                  <button><Link to="/pharms">Pharmacie ANDREA</Link></button>
+                  <button ><Link to="/pharms">Pharmacie ANDREA</Link></button>
                 </div>
                 <div className='radoca'>
                 <button><Link to="/pharms">Pharmacie RADOCA</Link></button>
@@ -76,7 +77,7 @@ function Home () {
             <h6 className='link3'>Elodie MBOUYI</h6>
             <img className='all4' src={mail}  alt='logo'/> 
             <h6 className='link4'>elodiembouyi@gmail.com</h6>
-            <p>Copyright&copy;Médic'App 2022-Elodie MBOUYI</p>
+            
           </div>
           <div className='write'>
               <h5>Entrer en contact</h5>
@@ -91,6 +92,7 @@ function Home () {
   
               <button type="submit">Envoyer</button>
               </form>
+              <p>Copyright&copy;Médic'App 2022-Elodie MBOUYI</p>
           </div>
         </div>
     </div>

@@ -456,6 +456,7 @@
     border-radius:10px ;
 }
 
+
 /* Le responsive du home */
 
 @media screen and (max-width:940px) {
@@ -501,23 +502,332 @@
     }
     /* les pharmacies */
     .nosphcies{
-        display: none;
+        width: 80%;
+        height: 115vh;
+        background-color: red;
+        transform: translate(37px, 70px);
+        display: flex;
+        flex-direction: column;
     }
     .pharmacies{
         width: 100%;
-        height: 100vh;
-        background-color: aqua;
+        height: 140vh;
     }
     .pharmacies h2{
         color: #127535;
         text-align: center;
-        font-size: 20px;
-        transform: translate(0px, 40px);
+        font-size: 30px;
+        transform: translate(0px, 10px);
+    }
+    .linero{
+        transform: translate(-0px, 10px);
     }
     .pharmacies p{
-        color: black;
-        text-align: center;
-        font-size: 10px;
-        transform: translate(-10px, 60px);
+        display: none;
     }
+    /* .nosphcies2{
+       
+    }
+
+    .nosphcies3{
+        
+    } */
+    /* pharmacie 1 */
+.nosphcies1{
+    background-color: var(--overlay-yellow);
+    text-align: center;
+    color: #ffffff;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+.nosphcies1:before{
+    content: '';
+    background: url('../assets/Vendeur1.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nosphcies1 button{
+    padding:10px 10px ;
+    font-size:1rem ;
+    color: #127535;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#ffffff ;
+    border:1px solid white ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-30px,135px);
+    width: 240px;
+}
+.nosphcies1 button a{
+    color: #127535;
+}
+
+/* pharmacie 2 */
+.nosphcies2{
+    background-color: transparent; 
+    text-align: center;
+    color: #ffffff;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+.nosphcies2:before{
+    content: '';
+    background: url('../assets/pharmacy2.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 167%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nosphcies2 button{
+    padding:10px 10px ;
+    font-size:1rem ;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(0px,10px);
+    width: 240px;
+}
+/* pharmacie trois */
+.nosphcies3{
+    width: 167%;
+    height: 75vh;
+    display: flex;
+    transform: translate(0px,0px);
+    flex-direction: column;
+    background-color: yellow;
+} 
+/* la pharmacie de garde */
+
+.garde{
+    width: 100%;
+    height: 70vh;
+    transform: translate(0px,10px);
+}
+.garde h2{
+    color: #127535;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(0px, 10px);
+}
+.lineroo{
+    display: block;
+    width: 100px;
+    height:3px ;
+    margin:5px auto ;
+    background-color:#127535 ;
+    transform: translate(0px, 10px);
+}
+.degarde{
+    display: flex;
+    width: 80%;
+    height: 65vh;
+    transform: translate(105px, 40px);
+   flex-direction: column;
+}
+.degarde1{
+   display: none;
+}
+.degarde1:before{
+    display: none;
+}
+.degarde2{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-60px, 0px);
+}
+.degarde2 h5{
+    color: #127535;
+    font-size: 17px;
+    width: 300px;
+    transform: translate(-10px, 10px)
+}
+.degarde2 p{
+    display: none;
+}
+
+.degarde2 button{
+    padding:10px 10px ;
+    width: 240px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(17px,20px);
+}
+.callun{
+    width: 30px;
+    height: 30px;
+    transform: translate(17px,40px);
+}
+.calldeux{
+    width: 30px;
+    height: 30px;
+    transform: translate(17px,40px);
+}
+.spanun{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    transform: translate(60px,15px);
+}
+.spandeux{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    transform: translate(60px,15px);
+}
+/* footer page d'accueil */
+.contacts{
+    width: 100%;
+    height: 145vh;
+    background-color: #127535;
+    transform: translate(0px, 40px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.about{
+    width: 25%;
+    height: 5vh;
+    transform: translate(0px, 250px);
+}
+.about h5 {
+    font-size:20px ;
+    transform: translate(-12px, 40px);
+    width: 250px;
+}
+.about p {
+    width: 250px;
+    transform: translate(-15px, 20px);
+}
+/* div entrer en contact partie 1 */
+.link{
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(40px, 40px);
+}
+.link h5 {
+    transform: translate(10px, 165px);
+    font-size:20px ;
+    width: 250px;
+}
+.write p {
+    transform: translate(15px, 0px);
+    font-size:13px ;
+    width: 370px;
+}
+.link1{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(40px,70px);
+}
+.link2{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(40px,-22px);
+}
+.link3{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(40px,-118px);
+    width: 250px;
+}
+.link4{
+    font-size: 20px;
+    font-weight: 300;
+    transform: translate(60px,0px);
+}
+
+/* div entrer en contact partie 2 */
+.all1{
+    width: 30px;
+    height: 30px;
+    transform: translate(0px, 140px);
+}
+.all2{
+    width: 30px;
+    height: 30px;
+    transform: translate(0px, 50px);
+}
+.all3{
+    width: 35px;
+    height: 35px;
+    transform: translate(-2px, -40px);
+}
+.all4{
+    width: 30px;
+    height: 30px;
+    transform: translate(0px, -135px);
+}
+
+/* mon formulaire */
+.write{
+    width: 30%;
+    height: 65vh;
+    transform: translate(40px, -60px);
+}
+.write h5 {
+    transform: translate(0px, -10px);
+    font-size:20px ;
+    width: 250px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.write button{
+    transform: translate(150px, -15px);
+    padding:10px 10px ;
+    width: 150px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#8CC826 ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.form input{
+    transform: translate(0px, -20px);
+    padding:10px 10px ;
+    width: 300px;
+    color:gray ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+}
+.form textarea{
+    transform: translate(0px, 0px);
+    padding:10px 10px ;
+    width: 300px;
+    height: 35vh;
+    color:gray ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+}
+
 }

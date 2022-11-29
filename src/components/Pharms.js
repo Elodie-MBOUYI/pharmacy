@@ -32,37 +32,36 @@ function Pharms () {
                 <button className='cat0'>Pansement</button>
             </div>
         </div>
-        <div className='contact'>
+        <div className='contkt'>
           <p>Avec Médic'App, s'approvisionner en produits et services pharmaceutiques n'a jamais été aussi simple dans votre ville !
-            <br></br>Cliquez sur la rubrique correspondant à votre besoin!
+          <br></br>Cliquez sur la rubrique correspondant à votre besoin!
           </p>
-           <div className='coordoonnees'>
-            <div className='coordoonnees1'>
-                <div className='cod'>
+          <div className='coord'>
+            <div className='coord1'>
+            <div className='cod6'>
                   <img className='localisation' src={localisation} alt='logo'/>
                   <h6>Adresse</h6>
                   <p>Rue de Gouverneur Bernard Port-Gentil,BP 640</p>
                 </div>
-                <div className='cod1'>
+                <div className='cod7'>
                   <img className='telephone' src={call1} alt='logo'/>
                   <h6>Téléphone</h6>
                   <p>01.55.21.64</p>
                 </div>
-                <div className='cod2'>
+                <div className='cod8'>
                   <img className='lhorloge' src={lhorloge} alt='logo'/>
                   <h6>Horaires habituelles</h6>
                   <p>Du Lundi au samedi de 7h00 à 20h00 <br></br>Dimanche fermé</p>
                 </div>
-                <div className='cod3'>
+                <div className='cod9'>
                   <h5>Réseaux sociaux</h5>
                   <img className='facebook' src={facebook} alt='logo'/>
                   <p>Pharmacie Centrale,Port-Gentil,GABON</p>
                 </div>
-                
             </div>
-            <div className='coordoonnee2'>
+            <div className='coord2'>
               <h2>Contactez-nous</h2>
-              <form className='formtwo'
+              <form className='formthree'
                   action="https://formspree.io/f/mdojvwop"
                   method="POST"
                 >
@@ -81,15 +80,13 @@ function Pharms () {
                 
                   <button type="submit">Envoyer</button>
                 </form>
-                
             </div>
-            </div>
-            <h6 className='notes'>Notre société recueille vos données afin de traiter votre demande de contact.Les données requises sont nécessaires pour en assurer le suivi et <br></br>
+          </div>
+          <h6 className='notes1'>Notre société recueille vos données afin de traiter votre demande de contact.Les données requises sont nécessaires pour en assurer le suivi et <br></br>
         sont réservées à l'usage exclusif de notre société.Elles ne seront en aucun cas communiquées à des tiers.<br></br>
         Conformément à la loi informatique et libertés, vous bénéficiez d'un droit d'accès, de modification,de rectification et de suppression des données vous concernant.<br></br>
-        Vous seul pouvez exercer ces droits sur vos propres données en vous adressant à <strong>Pharmacie Centrale-Rue de Gouverneur Bernard Port-Gentil-BP 640</strong></h6>
+        Vous seul pouvez exercer ces droits sur vos propres données en vous adressant à <strong>Pharmacie Centrale-Rue de Gouverneur Bernard Port-Gentil-BP 640</strong></h6>  
         </div>
-        
     </div>
   )
 }

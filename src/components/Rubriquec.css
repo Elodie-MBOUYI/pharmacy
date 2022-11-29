@@ -58,32 +58,31 @@
 }
 
 /* rentrer en contact avec la pharmacie */
-.contact{
+.cntact{
     width: 95%;
-    height: 80vh;
-    background-color: rgb(130, 130, 172);
+    height: 100vh;
     transform: translate(40px, 225px);
 }
-.contact p{
+.cntact p{
     color: #127535;
     text-align: center;
     font-size: 20px;
     transform: translate(0px, 0px);
     font-weight: 500;
 }
-.coordoonnees{
+.doonnees{
     width: 85%;
     height: 80vh;
     display: flex;
     transform: translate(140px, 50px);
 }
-.coordoonnees1{
+.doonnees1{
     width: 45%;
     height: 80vh;
     display: flex;
     flex-direction: column;
 }
-.notes{
+.notes2{
     width: 95%;
     height: 9vh;
     color: black;
@@ -93,57 +92,60 @@
 }
 
 /* l adresse */
-.cod1{
-    transform: translate(0px, -90px);
+.cod10{
+    transform: translate(0px, -40px);
 }
-.cod img{
+.cod10 img{
     width: 40px;
     height: 40px;
     transform: translate(20px, 40px);
 }
-.cod h6{
+.cod10 h6{
     color: #04A118;
     font-size: 20px;
     transform: translate(70px, -35px);
 }
-.cod p{
+.cod10 p{
     color: gray;
     font-size: 17px;
     font-weight: 150;
     transform: translate(-10px, -75px);
 }
 /* le telephone */
-.cod1 img{
+.cod11{
+    transform: translate(0px,-130px);
+}
+.cod11 img{
     width: 35px;
     height: 35px;
     transform: translate(20px, 40px);
 }
-.cod1 h6{
+.cod11 h6{
     color: #127535;
     font-size: 20px;
     transform: translate(70px, -35px);
 }
-.cod1 p{
+.cod11 p{
     color: gray;
     font-size: 17px;
     font-weight: 150;
     transform: translate(-135px, -75px);
 }
 /* les horaires */
-.cod2{
-    transform: translate(20px, -190px);
+.cod12{
+    transform: translate(20px, -230px);
 }
-.cod2 img{
+.cod12 img{
     width: 35px;
     height: 35px;
     transform: translate(0px, 40px);
 }
-.cod2 h6{
+.cod12 h6{
     color: #04A118;
     font-size: 20px;
     transform: translate(45px, -35px);
 }
-.cod2 p{
+.cod12 p{
     color: gray;
     font-size: 17px;
     font-weight: 150;
@@ -151,41 +153,42 @@
     transform: translate(43px, -75px);
 }
 /* les reseaux sociaux */
-.cod3{
-    transform: translate(-190px, -250px);
+.cod13{
+    transform: translate(0px, -270px);
 }
-.cod3 img{
+.cod13 img{
     width: 35px;
     height: 35px;
-    transform: translate(210px, -45px);
+    transform: translate(20px, -55px);
 }
-.cod3 h5{
+.cod13 h5{
     color: #127535;
     font-size: 20px;
-    transform: translate(75px, -35px);
+    transform: translate(20px, -35px);
 }
-.cod3 p{
+.cod13 p{
     color: gray;
     font-size: 17px;
     font-weight: 150;
     text-align: left;
-    transform: translate(260px, -90px);
+    transform: translate(70px, -100px);
 }
 
 /*partie formulaire*/
 
-.coordoonnee2{
+.doonnee2{
     width: 45%;
     height: 80vh;
     background-color: #127535;
     display: flex;
     flex-direction: column;
+    transform: translate(10px, 0px);
 }
-.coordoonnee2 h2{
+.doonnee2 h2{
     color: #ffffff;
     transform: translate(10px, 0px);
 }
-.formtwo{
+.formfour{
     width: 80%;
     height: 60vh;
     text-align: center;
@@ -195,7 +198,7 @@
     justify-content: space-around;
     transform: translate(50px, 0px);
 }
-.formtwo input{
+.formfour input{
         padding:10px 10px ;
         width: 370px;
         font-size:1rem ;
@@ -203,7 +206,7 @@
         border:1.5px solid #8CC826 ;
         border-radius:10px ;
 }
-.formtwo textarea{
+.formfour textarea{
     padding:10px 10px ;
     width: 370px;
     height: 200px;
@@ -212,7 +215,7 @@
     border:1.5px solid #8CC826 ;
     border-radius:10px ;
 }
-.formtwo button{
+.formfour button{
     padding:10px 10px ;
     width: 240px;
     font-size:1rem ;

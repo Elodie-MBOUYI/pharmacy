@@ -55,7 +55,6 @@
     height: 100vh;
     display: flex;
     transform: translate(140px, 50px);
-    background-color: pink;
 }
 .coordoonnees1{
     width: 45%;
@@ -251,9 +250,9 @@
     transform: translate(140px,0px);
 }
 .lien{
-    transform: translate(500px, 400px);
+    transform: translate(1000px, 200px);
     padding:10px 10px ;
-    width: 150px;
+    width: 210px;
     font-size:1rem ;
     color:white ;
     font-weight: 600;
@@ -262,4 +261,7 @@
     border:1px solid #8CC826 ;
     border-radius:10px ;
     cursor: pointer;
+}
+.lien a{
+    color: #ffffff;
 }

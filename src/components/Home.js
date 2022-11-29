@@ -15,8 +15,8 @@ function Home () {
         <div className='content'>
             <p>A Port-Gentil...</p>
             <p>Avec l'application Médic'App</p>
-            <p>Consulter,commander et acheter </p>
-            <p>Connaître la pharmacie de garde</p>
+            <p>Vérifier la disponibilité de vos médicaments </p>
+            <p>Contacter votre pharmacien</p>
             <button className='button'><Link to="/degarde">Pharmacie  de Garde</Link></button>
         </div>
         <div className='pharmacies'>
@@ -49,12 +49,12 @@ function Home () {
               <div className='degarde1'></div>
               <div className='degarde2'>
                 <h5>Période du 05 au 11 Décembre 2022</h5>
-                <p>Pour tout vos besoins en services pharmaceutiques n'hésitez pas à nous contactez !</p>
-                <img className='call1' src={call1}  alt='logo'/>
-                <span>(+241)74.53.38.42</span>
+                <p>Pour tout vos besoins en services pharmaceutiques <br></br> n'hésitez pas à nous contactez !</p>
+                <img className='callun' src={call1}  alt='logo'/>
+                <span className='spanun'>(+241)74.53.38.42</span>
                 <button ><Link to="/banco">Pharmacie  Banco</Link></button>
-                <img className='call2'src={call1} alt='logo'/>
-                <span>01.55.10.72</span>
+                <img className='calldeux'src={call1} alt='logo'/>
+                <span className='spandeux'>01.55.10.72</span>
                 <button ><Link to="/pharms">Pharmacie  Centrale</Link></button> 
               </div>
           </div>

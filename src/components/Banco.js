@@ -11,8 +11,10 @@ import './Banco.css'
 const Banco = () => {
   return (
     <div className='banco'>
-        <h2>Disponible dans notre Shop</h2>
+        <h2>Pharmacie Banco</h2>
         <span className="lignes"></span>
+        <h5>Disponible dans notre shop</h5>
+        <p></p>
         <div className='shop' >
             <div className='shop1'>
             <img className='doliprane' src={doliprane} alt='logo'/>
@@ -33,7 +35,7 @@ const Banco = () => {
             <p>Description</p>
             </div>
         </div>
-        <button className='lien'><a href='https://www.pharmabanco-pog.com/'>Voir plus et acheter</a></button>
+        <button className='lien'><a href='https://www.pharmabanco-pog.com/'>Voir plus...</a></button>
         <div className='cont'>
         <p>Avec Médic'App, s'approvisionner en produits et services pharmaceutiques n'a jamais été aussi simple dans votre ville !
         <br></br>Cliquez sur la rubrique correspondant à votre besoin!</p>

@@ -228,3 +228,34 @@
     cursor: pointer;
     transform: translate(140px,0px);
 }
+
+@media screen and (max-width:940px) {
+    .cards{
+        width: 100%;
+        height: 130vh;
+        background-color: aquamarine;
+        transform: translate(0px, 200px);
+    }
+    .cards1{
+        width: 100%;
+        height: 90vh;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        transform: translate(30px, 10px);
+        flex-direction: column;
+    }
+
+    .doliprane{
+        width: 50px;
+        height: 50px;
+    }
+    .advil{
+        width: 50px;
+        height: 50px;
+    }
+    .tramadol{
+        width: 150px;
+        height: 150px;
+    }
+}

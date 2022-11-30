@@ -1,6 +1,7 @@
 html,body{
-    overflow-x: hidden;
+     overflow-x: visible;
 }
+
 
 .home{
     background-color: var(--overlay);
@@ -471,7 +472,7 @@ html,body{
     }
     .home .content{
         max-width: 100%;
-        transform: translate(-10px, 200px);
+        transform: translate(0px, 200px);
     }
     .home .content p {
         font-size: 1.5rem;

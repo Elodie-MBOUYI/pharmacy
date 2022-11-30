@@ -6,7 +6,6 @@ import './Degarde.css'
 const Degarde = () => {
   return (
     <div className='gard'>
-       
           <h2>Pharmacies de Garde</h2>
           <span className="lin"></span>
           <div className='degard'>

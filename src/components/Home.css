@@ -1,7 +1,3 @@
-html,body{
-     overflow-x: visible;
-}
-
 
 .home{
     background-color: var(--overlay);
@@ -466,6 +462,9 @@ html,body{
 
 @media screen and (max-width:940px) {
     
+    html,body{
+        overflow-x: hidden;
+   }
     .home:before{
         width: 100%;
         height: 100%;
@@ -530,13 +529,7 @@ html,body{
     .pharmacies p{
         display: none;
     }
-    /* .nosphcies2{
-       
-    }
-
-    .nosphcies3{
-        
-    } */
+    
     /* pharmacie 1 */
 .nosphcies1{
     background-color: var(--overlay-yellow);

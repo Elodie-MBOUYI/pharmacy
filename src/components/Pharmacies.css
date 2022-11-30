@@ -26,7 +26,6 @@
 .nophcies{
     width: 80%;
     height: 450px;
-    background-color: aqua;
     transform: translate(140px, 180px);
     display: flex;
 }
@@ -179,4 +178,107 @@
     border-radius:10px ;
     cursor: pointer;
     transform: translate(-30px,190px);
+}
+
+@media screen and (max-width:940px) {
+    .pharmacy {
+        width: 100%;
+        height: 140vh;
+        transform: translate(0px, -10px);
+    }
+    
+    .pharmacy p{
+        color: black;
+        text-align: center;
+        font-size: 12px;
+        transform: translate(0px, 170px);
+    }
+    /* les pharmacies */
+    .nophcies{
+        width: 80%;
+        height: 135vh;
+        transform: translate(37px, 200px);
+        display: flex;
+        flex-direction: column;
+    }
+      /* pharmacie 1 */
+.nophcies1{
+    background-color: var(--overlay-yellow);
+    text-align: center;
+    color: #ffffff;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+.nophcies1:before{
+    content: '';
+    background: url('../assets/Vendeur1.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nophcies1 button{
+    padding:10px 10px ;
+    font-size:1rem ;
+    color: #127535;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#ffffff ;
+    border:1px solid white ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-30px,135px);
+    width: 240px;
+}
+.nophcies1 button a{
+    color: #127535;
+}
+/* pharmacie 2 */
+.nophcies2{
+    background-color: transparent; 
+    text-align: center;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+.nophcies2:before{
+    content: '';
+    background: url('../assets/pharmacy2.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 167%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nophcies2 button{
+    padding:10px 10px ;
+    font-size:1rem ;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(0px,40px);
+    width: 240px;
+}
+/* pharmacie trois */
+.nophcies3{
+    width: 167%;
+    height: 75vh;
+    display: flex;
+    transform: translate(0px,40px);
+    flex-direction: column;
+    background-color: yellow;
+} 
+  
+    
 }

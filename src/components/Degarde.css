@@ -90,23 +90,23 @@
     transform: translate(17px,60px);
 }
 
-.call1{
+.callun{
     width: 30px;
     height: 30px;
     transform: translate(17px,30px);
 }
-.call2{
+.calldeux{
     width: 30px;
     height: 30px;
     transform: translate(17px,65px);
 }
-.span1{
+.spanun{
     color: black;
     font-weight: 700;
     font-size: 20px;
     transform: translate(60px,5px);
 }
-.span2{
+.spandeux{
     color: black;
     font-weight: 700;
     font-size: 20px;
@@ -114,55 +114,99 @@
 }
 
 @media screen and (max-width:940px) {
-    .garde{
+    .gard{
         width: 100%;
-        height: 70vh;
-        transform: translate(0px,10px);
+        height: 100vh;
+        transform: translate(0px,140px);
+       
     }
-    .garde h2{
+    .gard h2{
         color: #127535;
         text-align: center;
         font-size: 30px;
         transform: translate(0px, 10px);
     }
-    .lineroo{
+    .lin{
         display: block;
-        width: 100px;
+        width: 120px;
         height:3px ;
         margin:5px auto ;
         background-color:#127535 ;
         transform: translate(0px, 10px);
     }
-    .degarde{
+    .degard{
         display: flex;
         width: 80%;
         height: 65vh;
-        transform: translate(105px, 40px);
-       flex-direction: column;
-    }
-    .degarde1{
-       display: none;
-    }
-    .degarde1:before{
-        display: none;
-    }
-    .degarde2{
-        width: 55%;
-        display: flex;
+        transform: translate(50px, 40px);
         flex-direction: column;
-        transform: translate(-60px, 0px);
-    }
-    .degarde2 h5{
-        color: #127535;
-        font-size: 17px;
-        width: 300px;
-        transform: translate(-10px, 10px)
-    }
-    .degarde2 p{
-        display: none;
+        justify-content: center;
+        align-items: center;
     }
     
-    .degarde2 button{
+    .degard2{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        transform: translate(-10px, 180px);
+    }
+    .degard2 h5{
+        color: #127535;
+        font-size:17px;
+        transform: translate(0px, -20px);
+        width: 100%;
+        height: 50px;
+    }
+    .degard2 p{
+        color: black;
+        font-size: 15px;
+        transform: translate(30px, -40px);
+        width: 80%;
+        text-align: center;
+    }
+    .degard1{
+        background-color: transparent; 
+        text-align: center;
+        color: #ffffff;
+        height: 40vh;
+        width: 90%;
+        position: relative;
+        margin-top: 0px;
+    }
+    .degard1:before{
+        content: '';
+        background: url('../assets/Degarde.jpg') no-repeat center center/cover ;
+        height: 40vh;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .callun{
+        width: 30px;
+        height: 30px;
+        transform: translate(17px,-20px);
+    }
+    .calldeux{
+        width: 30px;
+        height: 30px;
+        transform: translate(17px ,0px);
+    }
+    .spanun{
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        transform: translate(60px,-45px);
+    }
+    .spandeux{
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        transform: translate(60px,-25px);
+    }
+    .gard1{
         padding:10px 10px ;
         width: 240px;
         font-size:1rem ;
@@ -173,28 +217,20 @@
         border:1px solid #127535 ;
         border-radius:10px ;
         cursor: pointer;
-        transform: translate(17px,20px);
+        transform: translate(17px,-30px);
     }
-    .callun{
-        width: 30px;
-        height: 30px;
-        transform: translate(17px,40px);
+    .gard2{
+        padding:10px 10px ;
+        width: 240px;
+        font-size:1rem ;
+        color:white ;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color:#127535 ;
+        border:1px solid #127535 ;
+        border-radius:10px ;
+        cursor: pointer;
+        transform: translate(17px,-10px);
     }
-    .calldeux{
-        width: 30px;
-        height: 30px;
-        transform: translate(17px,40px);
-    }
-    .spanun{
-        color: black;
-        font-weight: 700;
-        font-size: 20px;
-        transform: translate(60px,15px);
-    }
-    .spandeux{
-        color: black;
-        font-weight: 700;
-        font-size: 20px;
-        transform: translate(60px,15px);
-    }
+    
 }

@@ -1,4 +1,4 @@
-import  React  from 'react';
+import React  from 'react';
 import call1  from '../assets/call1.png'
 import localisation from '../assets/localisation.png'
 import lhorloge from '../assets/lhorloge.png'
@@ -16,11 +16,13 @@ export default function MediaCard() {
       <span className="ligne"></span>
     <div className='cards'>
       <div className='cards1'>
-        <div className='fever'>
-          <img className='doliprane' src={doliprane} alt='logo'/>
+        <div className='cards11'>
+                <img className='doliprane' src={doliprane} alt='logo'/>
+        </div>
+        <div className='cards12'>
           <h5>Propriétés</h5>
           <h6>Description</h6>
-          <p>Description</p>
+          <p>Prix:</p>
         </div>
         <div className='fever'>
           <img className='advil' src={advil} alt='logo'/>
@@ -34,7 +36,6 @@ export default function MediaCard() {
             <h6>Description</h6>
             <p>Description</p>
         </div>
-
       </div>
       <div className='cards2'>
       <div className='fever'>

@@ -23,7 +23,6 @@ const Contact = () => {
             <h6 className='link3'>Elodie MBOUYI</h6>
             <img className='all4' src={mail}  alt='logo'/> 
             <h6 className='link4'>elodiembouyi@gmail.com</h6>
-            <p>Copyright&copy;Médic'App 2022-Elodie MBOUYI</p>
           </div>
           <div className='writing'>
               <h5>Entrer en contact</h5>
@@ -38,7 +37,9 @@ const Contact = () => {
   
               <button type="submit">Envoyer</button>
               </form>
+              <p>Copyright&copy;Médic'App 2022-Elodie MBOUYI</p>
           </div>
+          
         </div>
   )
 }

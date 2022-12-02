@@ -510,10 +510,10 @@
 }
 .cod9 p{
     color: gray;
-    font-size: 1px;
+    font-size: 13px;
     font-weight: 150;
     text-align: left;
-    transform: translate(260px, -100px);
+    transform: translate(260px, -95px);
 }
 /*partie formulaire*/
 

@@ -1,24 +1,13 @@
-.shop{
-    width: 90%;
-    height: 75vh;
-    background-color: aqua;
-    transform: translate(80px, 200px);
-    display: flex;
-    justify-content: space-around;
+.banco{
+    width: 100%;
+    height: 100vh;
 }
-.shop1{
-    width: 30%;
-    height: 70vh;
-    background-color: rgb(201, 125, 125);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transform: translate(0px, 10px);
-}
-
-.doliprane{
-    width: 70px;
-    height: 70px;
+.banco h4{
+    font-size: 20px;
+    color: rgb(24, 22, 22);
+    text-align: center;
+    transform: translate(0px,190px);
+    font-weight: 500;
 }
 
 .lignes{
@@ -32,9 +21,51 @@
 .banco h2{
     color: #127535;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     transform: translate(0px, 180px);
 }
+
+.shop{
+    width: 90%;
+    height: 70vh;
+    transform: translate(80px, 200px);
+    display: flex;
+    justify-content: space-around;
+}
+.shop1{
+    width: 30%;
+    height: 60vh;
+    background-color: rgb(201, 125, 125);
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 10px);
+}
+.imgs{
+    width: 90%;
+    height: 30vh;
+}
+.textimgs{
+    width: 100%;
+    height: 30vh;
+    background-color: red;
+}
+.textimgs h5{
+    transform: translate(0px, 0px);
+}
+.textimgs h6{
+    transform: translate(0px, 0px);
+}
+.textimgs p{
+    transform: translate(0px, 0px);
+}
+
+
+.doliprane{
+    width: 170px;
+    height: 170px;
+    transform: translate(80px, 10px);
+}
+
 
 /* fiche contact */
 
@@ -47,14 +78,14 @@
     color: #127535;
     text-align: center;
     font-size: 20px;
-    transform: translate(0px, 0px);
+    transform: translate(0px, -70px);
     font-weight: 500;
 }
 .coordoonnees{
     width: 85%;
     height: 100vh;
     display: flex;
-    transform: translate(140px, 50px);
+    transform: translate(140px, -10px);
 }
 .coordoonnees1{
     width: 45%;
@@ -250,9 +281,9 @@
     transform: translate(140px,0px);
 }
 .lien{
-    transform: translate(1000px, 200px);
+    transform: translate(960px, 200px);
     padding:10px 10px ;
-    width: 210px;
+    width: 300px;
     font-size:1rem ;
     color:white ;
     font-weight: 600;
@@ -264,4 +295,228 @@
 }
 .lien a{
     color: #ffffff;
+}
+
+@media screen and (max-width:940px) {
+    .banco{
+        width: 100%;
+        height: 440vh;
+    }
+    .lignes{
+        display: block;
+        width: 200px;
+        height:3px ;
+        margin:5px auto ;
+        background-color:#127535 ;
+        transform: translate(0px, 100px);
+    }
+    .banco h2{
+        color: #127535;
+        text-align: center;
+        font-size: 35px;
+        transform: translate(0px, 100px);
+    }
+    .banco h4{
+        font-size: 12px;
+        color: rgb(24, 22, 22);
+        text-align: center;
+        transform: translate(0px,110px);
+        font-weight: 500;
+    }
+    .shop{
+        width: 100%;
+        height: 160vh;
+        transform: translate(0px, 140px);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .shop1{
+    width: 90%;
+    height: 48vh;
+    background-color: rgb(201, 125, 125);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(20px, 10px);
+}
+.doliprane{
+    width: 150px;
+    height: 150px;
+}
+
+.cont p{
+    color: #127535;
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-30px, -150px);
+    font-weight: 500;
+}
+.coordoonnees{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    transform: translate(-30px, -170px);
+    flex-direction: column;
+}
+.cod p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 150;
+    transform: translate(0px, -90px);
+}
+
+.coordoonnees1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.cod5 p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 150;
+    text-align: left;
+    transform: translate(260px, -60px);
+}
+.cod4 p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 150;
+    text-align: left;
+    transform: translate(215px, -80px);
+}
+.cod5 h5{
+    color: #04A118;
+    font-size: 20px;
+    transform: translate(255px, 20px);
+    font-weight: bold;
+}
+.cod5 p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 150;
+    text-align: left;
+    transform: translate(210px, -60px);
+}
+.cod3 p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 150;
+    text-align: left;
+    transform: translate(260px, -90px);
+}
+.cod3 h5{
+    color: #127535;
+    font-size: 20px;
+    transform: translate(210px, -17px);
+    font-weight: bold;
+}
+.cod4 h5{
+    color: #127535;
+    font-size: 20px;
+    transform: translate(255px, 0px);
+    font-weight: bold;
+}
+.cod2 p{
+    color: #808080;
+    font-size: 15px;
+    font-weight: 150;
+    text-align: left;
+    transform: translate(5px, -100px);
+}
+.cod1 p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 150;
+    transform: translate(-115px, -105px);
+}
+.cod4{
+    transform: translate(-190px, -475px);
+}
+.cod5{
+    transform: translate(-190px, -590px);
+}
+
+/*partie formulaire*/
+
+.coordoonnee2{
+    width: 100%;
+    height: 90vh;
+    background-color: #127535;
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 50px);
+    justify-content: space-b;
+}
+.coordoonnee2 h2{
+    color: #ffffff;
+    transform: translate(0px, 0px);
+}
+.formtwo{
+    width: 80%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(20px, 0px);
+}
+.formtwo input{
+        padding:10px 10px ;
+        width: 315px;
+        font-size:1rem ;
+        color:gray ;
+        border:1.5px solid #8CC826 ;
+        border-radius:10px ;
+}
+.formtwo textarea{
+    padding:10px 10px ;
+    width: 315px;
+    height: 200px;
+    font-size:1rem ;
+    color:gray ;
+    border:1.5px solid #8CC826 ;
+    border-radius:10px ;
+}
+.formtwo button{
+    padding:10px 10px ;
+    width: 200px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#8CC826 ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(115px,0px);
+}
+.lien{
+    transform: translate(40px, 170px);
+    padding:10px 10px ;
+    width: 300px;
+    font-size:1rem ;
+    color:white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#8CC826 ;
+    border:1px solid #8CC826 ;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.lien a{
+    color: #ffffff;
+}
+.notes{
+    width: 95%;
+    height: 9vh;
+    color: black;
+    font-size: 12px;
+    transform: translate(-25px,400px);
+    text-align: center;
+}
+
+
 }

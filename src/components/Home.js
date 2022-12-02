@@ -51,32 +51,33 @@ function Home () {
               <div className='degarde2'>
                 <h5>Période du 05 au 11 Décembre 2022</h5>
                 <p>Pour tout vos besoins en services pharmaceutiques <br></br> n'hésitez pas à nous contactez !</p>
-                <img className='callun' src={call1}  alt='logo'/>
-                <span className='spanun'>(+241)74.53.38.42</span>
+                <img className='call1' src={call1}  alt='logo'/>
+                <span className='span1'>(+241)74.53.38.42</span>
                 <button ><Link to="/banco">Pharmacie  Banco</Link></button>
-                <img className='calldeux'src={call1} alt='logo'/>
-                <span className='spandeux'>01.55.10.72</span>
+                <img className='call2'src={call1} alt='logo'/>
+                <span className='span2'>01.55.10.72</span>
                 <button ><Link to="/pharms">Pharmacie  Centrale</Link></button> 
               </div>
           </div>
 
         </div>
         <div className='contacts'>
-          <div className='about'>
+          <div className='abt'>
             <h5>A propos</h5>
             <p>MEDIC'APP est une applcation web et web mobile qui se veut une plateforme regroupant l'ensemble des pharmacies de notre ville.</p>
 
           </div>
-          <div className='link'>
+          <div className='lk'>
             <h5>Entrer en contact</h5>
             <img className='all1' src={call2}  alt='logo'/> 
-            <h6 className='link1'>074.62.38.01</h6>
+            <h6 className='lk1'>074.62.38.01</h6>
             <img className='all2' src={whats}  alt='logo'/> 
-            <h6 className='link2'>04.62.38.01</h6>
+            <h6 className='lk2'>04.62.38.01</h6>
             <img className='all3' src={messenger}  alt='logo'/> 
-            <h6 className='link3'>Elodie MBOUYI</h6>
+            <h6 className='lk3'>Elodie MBOUYI</h6>
             <img className='all4' src={mail}  alt='logo'/> 
-            <h6 className='link4'>elodiembouyi@gmail.com</h6>
+            <h6 className='lk4'>elodiembouyi@gmail.com</h6>
+            <p className='wrt'>Copyright&copy;Médic'App 2022-Elodie MBOUYI</p>
             
           </div>
           <div className='write'>
@@ -92,7 +93,6 @@ function Home () {
   
               <button type="submit">Envoyer</button>
               </form>
-              <p>Copyright&copy;Médic'App 2022-Elodie MBOUYI</p>
           </div>
         </div>
     </div>

@@ -13,32 +13,43 @@ const Banco = () => {
     <div className='banco'>
         <h2>Pharmacie Banco</h2>
         <span className="lignes"></span>
-        <h5>Disponible dans notre shop</h5>
-        <p></p>
+        <h4> La pharmacie Banco se fait un plaisir de vous compter parmi ses visiteurs.<br></br>Ci-dessous les produits disponible actuellement dans notre shop<br></br>Pour en voir plus,commander et/ou acheter poursuivez la visite sur notre application !</h4>
         <div className='shop' >
             <div className='shop1'>
-            <img className='doliprane' src={doliprane} alt='logo'/>
-            <h5>Propriétés</h5>
-            <h6>Description</h6>
-            <p>Description</p>
+              <div className='imgs'>
+                <img className='doliprane' src={doliprane} alt='logo'/>
+              </div>
+              <div className='textimgs'>
+                <h5>Propriétés</h5>
+                <h6>Description</h6>
+                <p>Prix:</p>
+              </div>
             </div>
             <div className='shop1'>
-            <img className='doliprane' src={doliprane} alt='logo'/>
-            <h5>Propriétés</h5>
-            <h6>Description</h6>
-            <p>Description</p>
+              <div className='imgs'>
+                <img className='doliprane' src={doliprane} alt='logo'/>
+              </div>
+              <div className='textimgs'>
+                <h5>Propriétés</h5>
+                <h6>Description</h6>
+                <p>Prix:</p>
+              </div>
             </div>
             <div className='shop1'>
-            <img className='doliprane' src={doliprane} alt='logo'/>
-            <h5>Propriétés</h5>
-            <h6>Description</h6>
-            <p>Description</p>
+              <div className='imgs'>
+                <img className='doliprane' src={doliprane} alt='logo'/>
+              </div>
+              <div className='textimgs'>
+                <h5>Propriétés</h5>
+                <h6>Description</h6>
+                <p>Prix:</p>
+              </div>
             </div>
         </div>
-        <button className='lien'><a href='https://www.pharmabanco-pog.com/'>Voir plus...</a></button>
+        <button className='lien'><a href='https://www.pharmabanco-pog.com/'>Notre application</a></button>
         <div className='cont'>
         <p>Avec Médic'App, s'approvisionner en produits et services pharmaceutiques n'a jamais été aussi simple dans votre ville !
-        <br></br>Cliquez sur la rubrique correspondant à votre besoin!</p>
+        <br></br>N'hésitez pas à nous écrire si vous avez des questions!</p>
         <div className='coordoonnees'>
             <div className='coordoonnees1'>
                 <div className='cod'>
@@ -64,12 +75,12 @@ const Banco = () => {
                 <div className='cod4'>
                   <h5>Site web</h5>
                   <img className='facebook' src={globe} alt='logo'/>
-                  <p>Pharmacie Centrale,Port-Gentil,GABON</p>
+                  <p>pharma-banco-pog.com</p>
                 </div>
                 <div className='cod5'>
                   <h5>Email</h5>
                   <img className='facebook' src={email} alt='logo'/>
-                  <p>Pharmacie Centrale,Port-Gentil,GABON</p>
+                  <p>direction@pharmabanco-pog.com</p>
                 </div>
             </div>
             <div className='coordoonnee2'>

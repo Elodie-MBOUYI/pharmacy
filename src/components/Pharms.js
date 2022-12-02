@@ -23,18 +23,18 @@ function Pharms () {
                 <button className='cat0'><Link to="/rubriquec">Douleur et fièvre</Link></button>
             </div>
             <div className='cat2'>
-            <button className='cat0'>Rhume grippe ORL</button>
+            <button className='cat0'><Link to="/rubriquec">Rhume grippe ORL</Link></button>
             </div>
             <div className='cat3'>
-             <button className='cat0'>Alimentation</button>
+             <button className='cat0'><Link to="/rubriquec">Alimentation</Link></button>
             </div>
             <div className='cat4'>
-                <button className='cat0'>Pansement</button>
+                <button className='cat0'><Link to="/rubriquec">Pansement</Link></button>
             </div>
         </div>
         <div className='contkt'>
           <p>Avec Médic'App, s'approvisionner en produits et services pharmaceutiques n'a jamais été aussi simple dans votre ville !
-          <br></br>Cliquez sur la rubrique correspondant à votre besoin!
+          <br></br>N'hésitez pas à nous joindre !
           </p>
           <div className='coord'>
             <div className='coord1'>

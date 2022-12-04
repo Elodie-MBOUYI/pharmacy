@@ -5,7 +5,9 @@ import lhorloge from '../assets/lhorloge.png'
 import facebook  from '../assets/facebook.png'
 import globe from '../assets/globe.png'
 import email from '../assets/email.png'
-import doliprane from '../assets/doliprane.jpg'
+import dol from '../assets/dol.png'
+import bactol from '../assets/bactol.jpg'
+import bion from '../assets/bion.jpeg'
 import './Banco.css'
 
 const Banco = () => {
@@ -17,7 +19,7 @@ const Banco = () => {
         <div className='shop' >
             <div className='shop1'>
               <div className='imgs'>
-                <img className='doliprane' src={doliprane} alt='logo'/>
+                <img className='doliprane' src={dol} alt='logo'/>
               </div>
               <div className='textimgs'>
                 <h5>Propriétés</h5>
@@ -27,7 +29,7 @@ const Banco = () => {
             </div>
             <div className='shop1'>
               <div className='imgs'>
-                <img className='doliprane' src={doliprane} alt='logo'/>
+                <img className='doliprane' src={bactol} alt='logo'/>
               </div>
               <div className='textimgs'>
                 <h5>Propriétés</h5>
@@ -37,7 +39,7 @@ const Banco = () => {
             </div>
             <div className='shop1'>
               <div className='imgs'>
-                <img className='doliprane' src={doliprane} alt='logo'/>
+                <img className='doliprane' src={bion} alt='logo'/>
               </div>
               <div className='textimgs'>
                 <h5>Propriétés</h5>

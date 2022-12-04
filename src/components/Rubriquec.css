@@ -1,3 +1,54 @@
+.cards{
+    width: 90%;
+    height: 70vh;
+    transform: translate(80px, 200px);
+    display: flex;
+    justify-content: space-around;
+}
+.cards1{
+    width: 30%;
+    height: 60vh;
+    background-color: #04A118;
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 10px);
+    justify-content: space-around;
+}
+.imgc{
+    width: 90%;
+    height: 30vh;
+}
+.textimgc{
+    width: 100%;
+    height: 30vh;
+    background-color: red;
+}
+.textimgc h5{
+    transform: translate(0px, 0px);
+}
+.textimgc h6{
+    transform: translate(0px, 0px);
+}
+.textimgc p{
+    transform: translate(0px, 0px);
+}
+.doliprane{
+    width: 170px;
+    height: 170px;
+    transform: translate(80px, 10px);
+}
+.tramadol{
+    width: 170px;
+    height: 170px;
+    transform: translate(80px, 10px);
+}
+
+.advil{
+    width: 170px;
+    height: 170px;
+    transform: translate(80px, 10px);
+}
+
 .ligne{
     display: block;
     width: 100px;
@@ -12,51 +63,124 @@
     font-size: 30px;
     transform: translate(0px, 180px);
 }
-.cards{
-    width: 80%;
-    height: 130vh;
-    background-color: aquamarine;
-    transform: translate(150px, 180px);
+.fiep{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    transform: translate(0px, 180px);
 }
-.cards1{
-    width: 95%;
-    height: 60vh;
-    background-color: red;
+
+/* compartiment des transactions */
+
+.transaction{
+    width: 90%;
+    height: 100vh;
+    transform: translate(80px, 200px);
     display: flex;
     justify-content: space-around;
-    transform: translate(30px, 10px);
 }
-.cards2{
-    width: 95%;
-    height: 60vh;
-    background-color: rgb(122, 63, 63);
+.transaction1{
+    width: 50%;
+    height: 90vh;
+    transform: translate(0px, 0px);
+}
+.transaction2{
+    width: 50%;
+    height: 90vh;
+    transform: translate(0px, 0px);
+    /* background-color: plum; */
     display: flex;
-    justify-content: space-around;
-    transform: translate(30px, 10px);
 }
-.fever{
-    width: 30%;
-    height: 50vh;
-    background-color: aqua;
+.trans2{
+    width: 85%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    transform: translate(0px, 10px);
+    justify-content: space-around;
+    /* background-color: aqua; */
+    transform: translate(45px, 0px);
+}
+.trans2 input{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #7fdd8b;
+    border:#7fdd8b ;
+}
+.com{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #7fdd8b;
+    border:#7fdd8b ;
+}
+::placeholder {
+    color: black;
+    font-size: 0.8rem;
+    transform: translate(0px,3px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.trans2 .file{
+    width: 100%;
+    height: 6vh;
+    transform: translate(0px,3px);
+    border: radius 0px;;
+}
+.trans2 .sbm{
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #04A118;
 }
 
-.doliprane{
-    width: 150px;
-    height: 150px;
+.transaction h2{
+    color: #127535;
+    text-align: center;
+    font-size: 35px;
+    transform: translate(0px, 180px);
 }
-.advil{
-    width: 150px;
-    height: 150px;
+.p1{
+    transform: translate(0px, 0px);
 }
-.tramadol{
-    width: 150px;
-    height: 150px;
+.p2{
+    transform: translate(0px, 20px);
 }
-
+.p3{
+    transform: translate(0px, 30px);
+}
+.process{
+    width: 90%;
+    height: 28vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    transform: translate(30px,85px);
+}
+.film{
+    width: 115px;
+    height: 115px;
+    text-align: center;
+}
+.film p{
+    transform: translate(0px,-20px);
+}
+.ordi{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.delivrery{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
 /* rentrer en contact avec la pharmacie */
 .cntact{
     width: 95%;
@@ -230,32 +354,182 @@
 }
 
 @media screen and (max-width:940px) {
+
     .cards{
         width: 100%;
-        height: 130vh;
-        background-color: aquamarine;
-        transform: translate(0px, 200px);
-    }
-    .cards1{
-        width: 100%;
-        height: 90vh;
-        background-color: red;
+        height: 160vh;
+        transform: translate(0px, 140px);
         display: flex;
         justify-content: space-around;
-        transform: translate(30px, 10px);
         flex-direction: column;
     }
-
+    .cards1{
+        width: 85%;
+         height: 48vh;
+         background-color: rgb(201, 125, 125);
+         display: flex;
+         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(20px, 40px);
+    }
+    .fiep{
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        transform: translate(0px, 180px);
+    }
     .doliprane{
         width: 50px;
         height: 50px;
     }
     .advil{
-        width: 50px;
-        height: 50px;
+        width: 120px;
+        height: 120px;
     }
     .tramadol{
         width: 150px;
         height: 150px;
     }
+    /* compartiment des transactions */
+
+.transaction{
+    width: 90%;
+    height: 230vh;
+    transform: translate(15px, 200px);
+    display: flex;
+    flex-direction: column;
+}
+.transaction1{
+    width: 100%;
+    height: 153vh;
+    transform: translate(0px, 0px);
+}
+.transaction2{
+    width: 100%;
+    height: 100vh;
+    transform: translate(0px, 30px);
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.transaction h2{
+    color: #127535;
+    text-align: center;
+    font-size: 20px;
+    transform: translate(0px, 180px);
+}
+.p1{
+    transform: translate(0px, 0px);
+    font-size: 12px;
+}
+.p2{
+    transform: translate(0px, 15px);
+    font-size: 12px;
+}
+.p3{
+    transform: translate(0px, 35px);
+    font-size: 12px;
+}
+
+.process{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    transform: translate(15px,100px);
+}
+.film{
+    width: 115px;
+    height: 115px;
+    text-align: center;
+    transform: translate(50px,-20px);
+}
+.film p{
+    transform: translate(50px,-20px);
+}
+.ordi{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transform: translate(50px,-10px);
+}
+.ordi p{
+    transform: translate(50px,-10px);
+}
+.delivrery{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transform: translate(50px, 10px);
+}
+.delivrery p{
+    transform: translate(50px,10px);
+}
+/* formulaire commandes et ordonnances */
+
+.transaction2{
+    width: 100%;
+    height: 120vh;
+    transform: translate(0px, 90px);
+    display: flex;
+}
+.trans2{
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(29px, 0px);
+}
+.trans2 input{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #7fdd8b;
+    border:#7fdd8b ;
+}
+.com{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #7fdd8b;
+    border:#7fdd8b ;
+}
+::placeholder {
+    color: black;
+    font-size: 0.8rem;
+    transform: translate(0px,3px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.trans2 .file{
+    width: 100%;
+    height: 6vh;
+    transform: translate(0px,3px);
+    border: radius 0px;;
+}
+.trans2 .sbm{
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #04A118;
+}
+
+
+
+
+
+
+
+
+
 }

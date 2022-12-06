@@ -6,8 +6,8 @@ import facebook  from '../assets/facebook.png'
 import globe from '../assets/globe.png'
 import email from '../assets/email.png'
 import dol from '../assets/dol.png'
-import bactol from '../assets/bactol.jpg'
-import bion from '../assets/bion.jpeg'
+import bactol from '../assets/bactol.png'
+import bion from '../assets/bion.png'
 import './Banco.css'
 
 const Banco = () => {
@@ -23,7 +23,7 @@ const Banco = () => {
               </div>
               <div className='textimgs'>
                 <h5>Propriétés</h5>
-                <h6>Description</h6>
+                <h6>dghjjfilll</h6>
                 <p>Prix:</p>
               </div>
             </div>

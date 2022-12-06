@@ -8,7 +8,7 @@
 .cards1{
     width: 30%;
     height: 60vh;
-    background-color: #04A118;
+    background-color: #7fdd8b;
     display: flex;
     flex-direction: column;
     transform: translate(0px, 10px);
@@ -21,7 +21,7 @@
 .textimgc{
     width: 100%;
     height: 30vh;
-    background-color: red;
+    background-color: #127535;
 }
 .textimgc h5{
     transform: translate(0px, 0px);
@@ -56,6 +56,10 @@
     margin:5px auto ;
     background-color:#127535 ;
     transform: translate(0px, 170px);
+}
+.fievre{
+    width: 100%;
+    height: 260vh;
 }
 .fievre h2{
     color: #127535;
@@ -105,7 +109,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: #7fdd8b;
     border:#7fdd8b ;
 }
@@ -115,14 +119,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 10px;
     background-color: #7fdd8b;
     border:#7fdd8b ;
 }
 ::placeholder {
-    color: black;
-    font-size: 0.8rem;
-    transform: translate(0px,3px);
+    color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .trans2 .file{
@@ -183,9 +184,9 @@
 }
 /* rentrer en contact avec la pharmacie */
 .cntact{
-    width: 95%;
-    height: 100vh;
-    transform: translate(40px, 225px);
+    width: 70%;
+    height: 20vh;
+    transform: translate(300px, 235px);
 }
 .cntact p{
     color: #127535;
@@ -207,11 +208,11 @@
     flex-direction: column;
 }
 .notes2{
-    width: 95%;
+    width: 97%;
     height: 9vh;
     color: black;
-    font-size: 12px;
-    transform: translate(80px,50px);
+    font-size: 13px;
+    transform: translate(0px,50px);
     text-align: center;
 }
 
@@ -366,7 +367,7 @@
     .cards1{
         width: 85%;
          height: 48vh;
-         background-color: rgb(201, 125, 125);
+         background-color: #7fdd8b;
          display: flex;
          flex-direction: column;
         justify-content: center;
@@ -489,7 +490,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 10px;
     background-color: #7fdd8b;
     border:#7fdd8b ;
 }
@@ -499,14 +499,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 10px;
     background-color: #7fdd8b;
     border:#7fdd8b ;
 }
 ::placeholder {
-    color: black;
-    font-size: 0.8rem;
-    transform: translate(0px,3px);
+    color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .trans2 .file{
@@ -523,13 +520,18 @@
     justify-content: space-around;
     background-color: #04A118;
 }
-
-
-
-
-
-
-
-
+.cntact{
+    width: 70%;
+    height: 50vh;
+    transform: translate(60px, 270px);
+}
+.notes2{
+    width: 97%;
+    height: 9vh;
+    color: black;
+    font-size: 11px;
+    transform: translate(0px,50px);
+    text-align: center;
+}
 
 }

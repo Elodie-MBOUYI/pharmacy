@@ -1,7 +1,7 @@
 import React  from 'react'
-import doliprane from '../assets/doliprane.jpg'
+import doliprane from '../assets/doliprane.png'
 import advil from '../assets/advil.png'
-import tramadol from '../assets/tramadol.jpg'
+import tramadol from '../assets/tramadol.png'
 import film from '../assets/film.png'
 import delivery from '../assets/delivrery.png'
 import ordi from '../assets/ordi.png'
@@ -9,6 +9,10 @@ import './Rubriquec.css'
 
 
 export default function MediaCard() {
+
+  
+
+
   return (
     <div className='fievre'>
       <h2>Douleurs et Fièvre</h2>
@@ -46,7 +50,7 @@ export default function MediaCard() {
               </div>
             </div>
         </div>
-        <h2>Ordonnance & Commandes<br></br>à distance</h2>
+        <h2>Ordonnance & Commandes<br></br>à distance </h2>
         <div  className='transaction'>
           <div className='transaction1'>
             <p className='p1'>Vous pouvez envoyer directement en ligne votre ordonnance médicale à la Pharmacie Centrale.Il vous suffit de prendre en photo votre ordonnance.Vous avez également <br></br>la possibilité d’ajouter à votre demande d’autres produits ou médicaments de parapharmacie dans le champ «Produits désirés ».</p>

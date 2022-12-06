@@ -1,9 +1,16 @@
-import React from 'react'
 import {Link}  from 'react-router-dom'
 import './Pharmacies.css'
+import React from "react";
+
 
 const Pharmacies = () => {
-  return (
+
+  
+
+
+
+      return(
+          
     <div className='pharmacy'>
     <h2>Vos pharmacies</h2>
     <span className="linero2"></span>
@@ -11,6 +18,7 @@ const Pharmacies = () => {
     <div className='nophcies'>
       <div className='nophcies1'>
         <button><Link to="/pharms">Pharmacie Centrale</Link></button>
+        
       </div>
       <div className='deux'> 
         <div className='nophcies2'>
@@ -26,8 +34,9 @@ const Pharmacies = () => {
         </div>
       </div>
     </div>
-  </div>
-  )
-}
+  </div>)}
+  
+  
+
 
 export default Pharmacies

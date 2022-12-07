@@ -1,9 +1,11 @@
-import React from 'react'
 import call1  from '../assets/call1.png'
 import {Link}  from 'react-router-dom'
 import './Degarde.css'
 
+
+
 const Degarde = () => {
+
   return (
     <div className='gard'>
           <h2>Pharmacies de Garde</h2>
@@ -21,6 +23,7 @@ const Degarde = () => {
                 <button className='gard2' ><Link to="/pharms">Pharmacie  Centrale</Link></button> 
               </div>
           </div>
+          
     </div>
   )
 }

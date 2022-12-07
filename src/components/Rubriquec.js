@@ -1,4 +1,4 @@
-import React  from 'react'
+import {useState}  from 'react'
 import doliprane from '../assets/doliprane.png'
 import advil from '../assets/advil.png'
 import tramadol from '../assets/tramadol.png'
@@ -6,12 +6,54 @@ import film from '../assets/film.png'
 import delivery from '../assets/delivrery.png'
 import ordi from '../assets/ordi.png'
 import './Rubriquec.css'
+import axios from 'axios';
 
 
 export default function MediaCard() {
 
-  
+  // les valeurs
+  const [nom_client,setNom_clent] = useState('')
+  const [telephone,setTelephone] = useState('')
+  const [ordonnance,setOrdonnance] = useState('')
+  const [id_statut,setId_statut] = useState('')
+  const [message,setMessage] = useState('')
+  console.log({nom_client,telephone,ordonnance,message,id_statut})
 
+  // conditions sur l'état des valeurs
+  const handleNom_client = (e)=>{ 
+     setNom_clent(e.target.value)
+  }
+  const handleTelephone = (e)=>{ 
+    setTelephone(e.target.value)
+  }
+  
+  const handleMessage = (e)=>{
+    setMessage(e.target.value)
+  }
+  const handleOrdonnance = (e)=>{
+    setOrdonnance(e.target.value)
+  }
+  const handleId_statut = (e)=>{
+    setId_statut(e.target.value)
+  }
+
+// connexion à l'api,méthode post
+const handleApi = (e)=>{
+  console.log({nom_client,telephone,message})
+axios.post('http://localhost:3500/api/demandes/ajout',{
+    nom_client:nom_client,
+    telephone:telephone,
+    ordonnance:ordonnance,
+    message:message,
+    id_statut
+})
+.then(result=>{
+  console.log(result)
+})
+.catch(error=>{
+  console.log(error)
+})
+}
 
   return (
     <div className='fievre'>
@@ -73,15 +115,19 @@ export default function MediaCard() {
             </div>
           </div>
           <div className='transaction2'>
-            <form action="/action_page.php" className='trans2'>
-                <input type="text"  name="nom" placeholder='Votre nom et prénom'></input>
-                <input type="number"  name="phone" placeholder='Votre téléphone'></input>
+            <form action="" className='trans2'>
+                
+                <input value={nom_client} onChange={handleNom_client}   type="text"  placeholder='Votre nom et prénom'></input>
+                <input value={telephone} onChange={handleTelephone} type="number"   placeholder='Votre téléphone'></input>
                 <label for="prescrip">Vous avez jusqu'à 3 ordonnances à charger ne dépassant pas 7 MB par ordonnance:</label>
-                <input className='file' type="file" id="prescrip" name="prescrip" accept="image/png, image/jpeg,image/pdf"></input>
-                <input  className='file' type="file" id="prescrip" name="prescrip" accept="image/png, image/jpeg,image/pdf"></input>
-                <input  className='file' type="file" id="prescrip" name="prescrip" accept="image/png, image/jpeg,image/pdf"></input>
-                <textarea className='com' type="text"  name="nom" placeholder='Votre commande (exemple:Doliprane 1000mg,...)'></textarea>
-                <input className='sbm' type="submit" value="Submit"></input>
+                <input value={ordonnance} onChange={handleOrdonnance}   type="file"  placeholder='Votre nom et prénom'></input>
+                <textarea value={message}  onChange={handleMessage} className='com' type="text"  placeholder='Votre commande (exemple:Doliprane 1000mg,...)'></textarea>
+                <select value={id_statut} onChange={handleId_statut} type="number">
+                  <option >--Choisissez un nbre--</option>
+                  <option >1-Me renseigner</option>
+                  <option >2-Acheter</option>
+                </select>
+                <button onClick={handleApi} className='sbm'>Soumettre</button>
             </form>
           </div>
 

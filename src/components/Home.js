@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect,useState} from 'react'
 import call1  from '../assets/call1.png'
 import call2 from '../assets/call2.png'
 import mail from '../assets/mail.png'
@@ -9,7 +9,22 @@ import './Home.css'
 
 
 function Home () {
- 
+
+  const [pharmacies, setPharmacies] = useState([])
+
+// api get implementation
+
+  useEffect(() => {
+  const url = "http://localhost:3500/api/pharmacies"
+  fetch(url)
+  .then(response=> response.json()).then(json => {
+      console.log("jsonnnn", json)
+      setPharmacies(json)
+  }).catch(e => {
+      console.log("e", e)
+  })
+}, [])
+  
   return (
     <div className='home'>
         <div className='content'>
@@ -51,12 +66,24 @@ function Home () {
               <div className='degarde2'>
                 <h5>Période du 05 au 11 Décembre 2022</h5>
                 <p>Pour tout vos besoins en services pharmaceutiques <br></br> n'hésitez pas à nous contactez !</p>
+                {
+                  pharmacies.map(item => {
+                      return(
+                        <span className='spanun'>{item.tel_pharmacie}</span>
+                      )
+                  })
+                }
                 <img className='call1' src={call1}  alt='logo'/>
-                <span className='span1'>(+241)74.53.38.42</span>
-                <button ><Link to="/banco">Pharmacie  Banco</Link></button>
+                <span className='span1'></span>
+                {
+                  pharmacies.map(item => {
+                      return(
+                        <button ><Link to="/Degarde">{item.nom_pharmacie}</Link></button>
+                      )
+                  })
+                }
                 <img className='call2'src={call1} alt='logo'/>
-                <span className='span2'>01.55.10.72</span>
-                <button ><Link to="/pharms">Pharmacie  Centrale</Link></button> 
+                <span className='span2'></span>
               </div>
           </div>
 

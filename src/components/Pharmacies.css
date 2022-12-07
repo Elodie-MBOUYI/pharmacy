@@ -59,7 +59,7 @@
     border:1px solid white ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-30px,370px);
+    transform: translate(-30px,385px);
 }
 .nophcies1 button a{
     color: #127535;
@@ -100,7 +100,8 @@
     border:1px solid #127535 ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-160px,100px);
+    transform: translate(-160px,140px);
+    width: 300px;
 }
 .nophcies2 button a{
     color: #ffffff;
@@ -231,7 +232,7 @@
     border:1px solid white ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-30px,135px);
+    transform: translate(-30px,150px);
     width: 240px;
 }
 .nophcies1 button a{

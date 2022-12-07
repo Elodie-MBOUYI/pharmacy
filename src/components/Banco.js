@@ -23,8 +23,8 @@ const Banco = () => {
               </div>
               <div className='textimgs'>
                 <h5>Propriétés</h5>
-                <h6>dghjjfilll</h6>
-                <p>Prix:</p>
+                <h6>Ce médicament contient un anti-inflammatoire non stéroïdien : l’ibuprofène.Il est indiqué, chez l’adulte et l’enfant de plus de 30 kg <br></br>(soit environ 11-12 ans), dans le traitement de courte durée de la <br></br>fièvre et/ou des douleurs.</h6>
+                <p>Prix:1.750 Fcfa</p>
               </div>
             </div>
             <div className='shop1'>
@@ -33,8 +33,8 @@ const Banco = () => {
               </div>
               <div className='textimgs'>
                 <h5>Propriétés</h5>
-                <h6>Description</h6>
-                <p>Prix:</p>
+                <h6>Le gel mains sans rinçage  a été élaboré à partir d’une formule issue <br></br> du milieu hospitalier, qui permet de garantir l’hygiène des mains rapidement et efficacement. Il peut être utilisé en toutes conditions <br></br> car il sèche seul.</h6>
+                <p>Prix:11.480 Fcfa</p>
               </div>
             </div>
             <div className='shop1'>
@@ -43,8 +43,8 @@ const Banco = () => {
               </div>
               <div className='textimgs'>
                 <h5>Propriétés</h5>
-                <h6>Description</h6>
-                <p>Prix:</p>
+                <h6>Complément alimentaire défenses immunitaires à base de ferments, vitamines et minéraux. </h6>
+                <p>Prix:7.800 Fcfa</p>
               </div>
             </div>
         </div>

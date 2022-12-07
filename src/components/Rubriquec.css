@@ -24,13 +24,21 @@
     background-color: #127535;
 }
 .textimgc h5{
-    transform: translate(0px, 0px);
+    transform: translate(20px, 0px);
+    color: white;
+    font-size: 15px;
 }
 .textimgc h6{
-    transform: translate(0px, 0px);
+    transform: translate(20px, 0px);
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
 }
 .textimgc p{
-    transform: translate(0px, 0px);
+    transform: translate(20px, 0px);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
 }
 .doliprane{
     width: 170px;
@@ -132,13 +140,19 @@
     transform: translate(0px,3px);
     border: radius 0px;;
 }
-.trans2 .sbm{
-    width: 40%;
-    height: 8vh;
+.sbm{
+    width: 20%;
+    height: 6vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: #04A118;
+    border: #04A118;
+    color: white;
+    font-size: 14px;
+}
+.trans2 select{
+    background-color: #7fdd8b;
 }
 
 .transaction h2{
@@ -532,6 +546,25 @@
     font-size: 11px;
     transform: translate(0px,50px);
     text-align: center;
+}
+.textimgs h5{
+    transform: translate(20px, 0px);
+    color: white;
+    font-size: 15px;
+}
+.textimgc h6{
+    transform: translate(20px, 0px);
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    width: 200px;
+    height: 110px;
+}
+.textimgc p{
+    transform: translate(20px, -40px);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 }

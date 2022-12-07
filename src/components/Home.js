@@ -1,5 +1,4 @@
 import {useEffect,useState} from 'react'
-import call1  from '../assets/call1.png'
 import call2 from '../assets/call2.png'
 import mail from '../assets/mail.png'
 import messenger from '../assets/messenger.png'
@@ -30,8 +29,8 @@ function Home () {
         <div className='content'>
             <p>A Port-Gentil...</p>
             <p>Avec l'application Médic'App</p>
-            <p>Vérifier la disponibilité de vos produits </p>
             <p>Contacter votre pharmacien</p>
+            <p>Vérifier la disponibilité de vos produits </p>
             <button className='button'><Link to="/degarde">Pharmacie  de Garde</Link></button>
         </div>
         <div className='pharmacies'>
@@ -66,24 +65,14 @@ function Home () {
               <div className='degarde2'>
                 <h5>Période du 05 au 11 Décembre 2022</h5>
                 <p>Pour tout vos besoins en services pharmaceutiques <br></br> n'hésitez pas à nous contactez !</p>
-                {
-                  pharmacies.map(item => {
-                      return(
-                        <span className='spanun'>{item.tel_pharmacie}</span>
-                      )
-                  })
-                }
-                <img className='call1' src={call1}  alt='logo'/>
                 <span className='span1'></span>
                 {
                   pharmacies.map(item => {
                       return(
-                        <button ><Link to="/Degarde">{item.nom_pharmacie}</Link> </button>
+                        <button ><Link to="/Degarde">{item.nom_pharmacie}</Link></button>
                       )
                   })
                 }
-                <img className='call2'src={call1} alt='logo'/>
-                <span className='span2'></span>
               </div>
           </div>
 

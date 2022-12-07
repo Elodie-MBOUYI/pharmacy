@@ -154,7 +154,7 @@
     border:1px solid #127535 ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-170px,100px);
+    transform: translate(-160px,100px);
 }
 
 /* pharmacie trois */
@@ -304,16 +304,11 @@
     color:white ;
     font-weight: 600;
     text-transform: uppercase;
-    background-color:#127535 ;
+    background-color:#127535;
     border:1px solid #127535 ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(17px,20px);
-}
-.call1{
-    width: 30px;
-    height: 30px;
-    transform: translate(17px,40px);
+    transform: translate(17px,70px);
 }
 .call2{
     width: 30px;
@@ -345,7 +340,7 @@
 .abt{
     width: 25%;
     height: 45vh;
-    transform: translate(60px, 0px);
+    transform: translate(60px, 40px);
 }
 .abt h5 {
     font-size:20px ;
@@ -358,7 +353,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transform: translate(80px, -110px);
+    transform: translate(80px, -70px);
 }
 .lk h5 {
     transform: translate(0px, 155px);
@@ -412,7 +407,7 @@
 .write{
     width: 30%;
     height: 65vh;
-    transform: translate(0px, 20px);
+    transform: translate(0px, 60px);
 }
 /* .wrt1{
    display: none;

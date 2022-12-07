@@ -67,8 +67,8 @@ axios.post('http://localhost:3500/api/demandes/ajout',{
               </div>
               <div className='textimgc'>
                 <h5>Propriétés</h5>
-                <h6>Description</h6>
-                <p>Prix:</p>
+                <h6>Ce médicament contient un anti-inflammatoire non stéroïdien : l’ibuprofène.Il est indiqué, chez l’adulte et l’enfant de plus de 30 kg <br></br>(soit environ 11-12 ans), dans le traitement de courte durée de la <br></br>fièvre et/ou des douleurs.</h6>
+                <p>Prix:1.900 Fcfa</p>
               </div>
             </div>
             <div className='cards1'>
@@ -77,8 +77,8 @@ axios.post('http://localhost:3500/api/demandes/ajout',{
               </div>
               <div className='textimgc'>
                 <h5>Propriétés</h5>
-                <h6>Description</h6>
-                <p>Prix:</p>
+                <h6>Ce médicament contient un anti-inflammatoire non stéroïdien : l’ibuprofène.Il est indiqué, chez l’adulte et l’enfant de plus de 30 kg <br></br>(soit environ 11-12 ans), dans le traitement de courte durée de la <br></br>fièvre et/ou des douleurs.</h6>
+                <p>Prix:2.840 Fcfa</p>
               </div>
             </div>
             <div className='cards1'>
@@ -87,8 +87,8 @@ axios.post('http://localhost:3500/api/demandes/ajout',{
               </div>
               <div className='textimgc'>
                 <h5>Propriétés</h5>
-                <h6>Description</h6>
-                <p>Prix:</p>
+                <h6>Ce médicament contient un anti-inflammatoire non stéroïdien : l’ibuprofène.Il est indiqué, chez l’adulte et l’enfant de plus de 30 kg <br></br>(soit environ 11-12 ans), dans le traitement de courte durée de la <br></br>fièvre et/ou des douleurs.</h6>
+                <p>Prix:1.265 Fcfa</p>
               </div>
             </div>
         </div>
@@ -123,7 +123,7 @@ axios.post('http://localhost:3500/api/demandes/ajout',{
                 <input value={ordonnance} onChange={handleOrdonnance}   type="file"  placeholder='Votre nom et prénom'></input>
                 <textarea value={message}  onChange={handleMessage} className='com' type="text"  placeholder='Votre commande (exemple:Doliprane 1000mg,...)'></textarea>
                 <select value={id_statut} onChange={handleId_statut} type="number">
-                  <option >--Choisissez un nbre--</option>
+                  <option >--Choisissez une option--</option>
                   <option >1-Me renseigner</option>
                   <option >2-Acheter</option>
                 </select>

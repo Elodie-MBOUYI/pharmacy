@@ -8,8 +8,7 @@ const Pharmacies = () => {
   
 
 
-
-      return(
+ return(
           
     <div className='pharmacy'>
     <h2>Vos pharmacies</h2>

@@ -30,7 +30,7 @@ function Home () {
         <div className='content'>
             <p>A Port-Gentil...</p>
             <p>Avec l'application Médic'App</p>
-            <p>Vérifier la disponibilité de vos médicaments </p>
+            <p>Vérifier la disponibilité de vos produits </p>
             <p>Contacter votre pharmacien</p>
             <button className='button'><Link to="/degarde">Pharmacie  de Garde</Link></button>
         </div>
@@ -78,7 +78,7 @@ function Home () {
                 {
                   pharmacies.map(item => {
                       return(
-                        <button ><Link to="/Degarde">{item.nom_pharmacie}</Link></button>
+                        <button ><Link to="/Degarde">{item.nom_pharmacie}</Link> </button>
                       )
                   })
                 }

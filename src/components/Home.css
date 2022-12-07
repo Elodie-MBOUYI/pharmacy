@@ -1,4 +1,3 @@
-
 .home{
     background-color: var(--overlay);
     color: #ffffff;
@@ -114,7 +113,7 @@
     border:1px solid white ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-30px,370px);
+    transform: translate(-30px,385px);
 }
 .nosphcies1 button a{
     color: #127535;
@@ -155,7 +154,7 @@
     border:1px solid #127535 ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-160px,100px);
+    transform: translate(-170px,100px);
 }
 
 /* pharmacie trois */
@@ -507,7 +506,7 @@
     /* les pharmacies */
     .nosphcies{
         width: 80%;
-        height: 115vh;
+        height: 100vh;
         background-color: red;
         transform: translate(37px, 70px);
         display: flex;
@@ -560,7 +559,7 @@
     border:1px solid white ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-30px,135px);
+    transform: translate(-30px,100px);
     width: 240px;
 }
 .nosphcies1 button a{
@@ -597,7 +596,7 @@
     border:1px solid #127535 ;
     border-radius:10px ;
     cursor: pointer;
-    transform: translate(-10px,10px);
+    transform: translate(-30px,10px);
     width: 240px;
 }
 /* pharmacie trois */

@@ -290,7 +290,7 @@
     transform: translate(140px,0px);
 }
 .lien{
-    transform: translate(960px, 200px);
+    transform: translate(880px, 200px);
     padding:10px 10px ;
     width: 300px;
     font-size:1rem ;
@@ -523,7 +523,7 @@
     height: 9vh;
     color: black;
     font-size: 12px;
-    transform: translate(-25px,400px);
+    transform: translate(-25px,450px);
     text-align: center;
 }
 

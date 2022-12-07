@@ -149,7 +149,7 @@
         height: 50vh;
         display: flex;
         flex-direction: column;
-        transform: translate(-10px, 180px);
+        transform: translate(17px, 190px);
     }
     .degard2 h5{
         color: #127535;
